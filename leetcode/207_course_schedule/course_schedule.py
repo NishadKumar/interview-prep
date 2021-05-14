@@ -74,12 +74,12 @@ def can_finish(num_courses, prerequisites):
     
     return True
     
-    #Time Complexity:
-    # O(M  + N) -> where M is the number of dependencies, N is the number of courses. 
-    # For example: In the worst case scenario, we take O(M) to build the adjacency graph and O(N) time to cover all dependencies. 
+#Time Complexity:
+# O(M  + N) -> where M is the number of dependencies, N is the number of courses. 
+# For example: In the worst case scenario, we take O(M) to build the adjacency graph and O(N) time to cover all dependencies. 
 
-    #Space Complexity:
-    # O(M + N) -> Same explanation as above as we need to store max of M dependencies in graph and N courses to check if visited or not.
+#Space Complexity:
+# O(M + N) -> Same explanation as above as we need to store max of M dependencies in graph and N courses to check if visited or not.
 
-    # Tests:
-    # command: python test_course_schedule.py
+# Tests:
+# command: python test_course_schedule.py
