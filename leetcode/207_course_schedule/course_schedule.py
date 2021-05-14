@@ -48,7 +48,7 @@ def can_finish(num_courses, prerequisites):
         if visited[course] == -1:
             return True
         
-        #already processed course:
+        #already processed course
         if visited[course] == 1:
             return False
         
@@ -65,11 +65,9 @@ def can_finish(num_courses, prerequisites):
     visited = collections.defaultdict(int)
     graph = collections.defaultdict(list)
     
-    # O(M) time to build graph for M dependencies
     for u,v in prerequisites:
         graph[u].append(v)
     
-    # O(N) time to check against all courses if there is a cycle
     for i in range(num_courses):
         if has_cycle(i):
             return False
@@ -82,7 +80,6 @@ def can_finish(num_courses, prerequisites):
 
     #Space Complexity:
     # O(M + N) -> Same explanation as above as we need to store max of M dependencies in graph and N courses to check if visited or not.
-
 
     # Tests:
     # command: python test_course_schedule.py
