@@ -5,13 +5,13 @@ Solving problems from Leetcode and Daily byte for interview preparation. Feel fr
 
 ## Folder structure
 - dailybyte/
-   date_problem_name.py
+   * date_problem_name.py
      
 - leetcode/
-    problem#_problem_name/
-      problem_name.py
-      test_problem_name.py
-
+    * problem#_problem_name/
+    * problem_name.py
+    * test_problem_name.py
+     
  - README.md
 
 
