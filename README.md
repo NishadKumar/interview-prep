@@ -1,4 +1,4 @@
-# DESCRIPTION
+# Description
 
 Solving problems from Leetcode and Daily byte for interview preparation. Feel free to clone and start using them. I look forward to any improvements for the repository and appreicate your contributions. 
 
