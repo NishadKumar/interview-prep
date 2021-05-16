@@ -57,5 +57,5 @@ def longest_ones(nums, k):
 # O(1) - Constant space.
 
 # Tests:
-# command: python max_consecutive_ones_3.py
+# command: python test_max_consecutive_ones_3.py
 
