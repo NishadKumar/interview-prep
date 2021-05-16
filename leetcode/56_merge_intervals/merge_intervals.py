@@ -40,4 +40,4 @@ def merge(intervals):
 # O(log N) for quick sort, O(N) for merge sort.
 
 # Tests:
-# command: python merge_intervals.py
+# command: python test_merge_intervals.py
