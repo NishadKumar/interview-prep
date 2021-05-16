@@ -21,7 +21,7 @@
 def merge(intervals):
 
     merged = []
-    intervals = intervals.sort(key = lambda interval: interval[0])
+    intervals.sort(key = lambda interval: interval[0])
 
     for interval in intervals:
         if not merged or merged[-1][1] < interval[0]:
