@@ -65,3 +65,6 @@ def spiral_order(matrix):
 
 # Space Complexity:
 # O(1) - No extra space used.
+
+# Tests:
+# command: python test_spiral_matrix.py
