@@ -13,7 +13,7 @@
 # We track 4 pointers namely top, left, right and bottom. We move these according to the spiral order mentioned. When we meet the total number of elements in the 
 # matrix originally, that indicates we are done.
 
-def spiral_order(self, matrix):
+def spiral_order(matrix):
         """
         :type matrix: List[List[int]]
         :rtype: List[int]
