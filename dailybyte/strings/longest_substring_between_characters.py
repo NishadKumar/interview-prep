@@ -28,3 +28,10 @@ def longest_substring_between_characters(s):
             dictionary[s[i]] = i
     
     return max_length
+
+
+# Time Complexity:
+# O(N) where N is the total number of characters in s.
+
+# Space complexity: 
+# O(1) or constant since our hash map will at most grow to a size of twenty-six regardless of the size of s.
