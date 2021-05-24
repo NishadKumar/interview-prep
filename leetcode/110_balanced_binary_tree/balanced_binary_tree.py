@@ -21,3 +21,10 @@ def is_balanced(self, root):
         return True
     
     return abs(get_depth(root.left) - get_depth(root.right)) <= 1 and (self.is_balanced(root.left) and self.is_balanced(root.right))
+
+
+# Time Complexity:
+# O(N) where N is the number of nodes in a tree.
+
+# Space complexity: 
+# O(N), The recursion stack may go up to O(N) if the tree is unbalanced.
