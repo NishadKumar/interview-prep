@@ -5,7 +5,8 @@ Solving problems from Leetcode and Daily byte for interview preparation. Feel fr
 
 ## Folder structure
 - dailybyte/
-   - date_problem_name.py
+   - topic/
+      - problem_name.py
      
 - leetcode/
     - problem#_problem_name/
