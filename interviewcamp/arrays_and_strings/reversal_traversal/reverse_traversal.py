@@ -36,3 +36,5 @@ def get_last_number(nums):
 # O(1) - As no extra space is utilized. 
 
 
+# Tests:
+# command: python test_three_sum.py
