@@ -9,8 +9,8 @@ Solving problems from Leetcode and Daily byte for interview preparation. Feel fr
       - date_problem_name.py
 - interviewcamp/
    - category
-   - problem_name.py
-   - test_problem_name.py
+      - problem_name.py
+      - test_problem_name.py
      
 - leetcode/
     - problem#_problem_name/
