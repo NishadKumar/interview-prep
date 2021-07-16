@@ -18,7 +18,7 @@
 #         /  \
 #        7    1
 
-
+#Approach:
 # To solve the problem, we can traverse each node in both of our trees summing appropriate values. 
 # We can start from each of their roots and work our way down the tree. A simple way to do this is with recursion. 
 # At every one of our recursive calls we can first check how many nodes we have. 
