@@ -17,10 +17,10 @@
 
 # Approach:
 # To solve this problem, we can keep track of two things, first the number of servers in each row and second the number of servers in each column. 
-# To do this, we’ll leverage two arrays, rows and cols. With our arrays initialized, we can now start iterating through our matrix. 
+# To do this, we will leverage two arrays, rows and cols. With our arrays initialized, we can now start iterating through our matrix. 
 # For every element we traverse, we can check if it is a server (i.e. a one). If it is, we can increment the server count for the current row and the current column.
-# Once we’ve done an initial sweep through or matrix recording the total number of servers in each row and column, we can iterate through our matrix a second time. 
-# This time, for each server (i.e. one) we find, we can check if there is another server within the current row or the current column that the server we’re on can communicate with (i.e. rows[i] > 1 || cols[j] > 1). 
+# Once we have done an initial sweep through or matrix recording the total number of servers in each row and column, we can iterate through our matrix a second time. 
+# This time, for each server (i.e. one) we find, we can check if there is another server within the current row or the current column that the server we are on can communicate with (i.e. rows[i] > 1 || cols[j] > 1). 
 # If there is, we can increment our servers count by one. Once we finish iterating through our matrix a second time, we can return our servers count.
 
 def computer_network(matrix):
@@ -47,3 +47,5 @@ def computer_network(matrix):
     return total_servers
 
 
+# Runtime: O(N x M) where N is the total number of rows in our matrix and M is the total number of columns in our matrix.
+# Space complexity: O(N + M) where N is the total number of rows in our matrix and M is the total number of columns in our matrix.
